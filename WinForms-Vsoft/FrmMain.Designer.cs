@@ -29,6 +29,8 @@
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FrmMain));
+            DevExpress.XtraGrid.GridFormatRule gridFormatRule1 = new DevExpress.XtraGrid.GridFormatRule();
+            DevExpress.XtraEditors.FormatConditionRuleValue formatConditionRuleValue1 = new DevExpress.XtraEditors.FormatConditionRuleValue();
             ribbon = new DevExpress.XtraBars.Ribbon.RibbonControl();
             btnAdd = new DevExpress.XtraBars.BarButtonItem();
             btnLoad = new DevExpress.XtraBars.BarButtonItem();
@@ -126,6 +128,15 @@
             // grdViewDocumentWatchers
             // 
             grdViewDocumentWatchers.Columns.AddRange(new DevExpress.XtraGrid.Columns.GridColumn[] { grdId, grdDocumentId, grdUserId, grdDocumentSummary, grdEmail, grdExpiredIn, grdSecurityLevel, grdStatus, grdIsActive, grdCreatedOn, grdCheckSum });
+            gridFormatRule1.ApplyToRow = true;
+            gridFormatRule1.Column = grdIsActive;
+            gridFormatRule1.Name = "isActiveFormat";
+            formatConditionRuleValue1.Appearance.BackColor = Color.FromArgb(255, 192, 192);
+            formatConditionRuleValue1.Appearance.Options.UseBackColor = true;
+            formatConditionRuleValue1.Condition = DevExpress.XtraEditors.FormatCondition.Equal;
+            formatConditionRuleValue1.Value1 = false;
+            gridFormatRule1.Rule = formatConditionRuleValue1;
+            grdViewDocumentWatchers.FormatRules.Add(gridFormatRule1);
             grdViewDocumentWatchers.GridControl = grdCtrDocumentWatchers;
             grdViewDocumentWatchers.GroupCount = 1;
             grdViewDocumentWatchers.Name = "grdViewDocumentWatchers";
@@ -149,8 +160,6 @@
             grdDocumentId.Name = "grdDocumentId";
             grdDocumentId.OptionsColumn.AllowEdit = false;
             grdDocumentId.OptionsColumn.AllowGroup = DevExpress.Utils.DefaultBoolean.True;
-            grdDocumentId.Visible = true;
-            grdDocumentId.VisibleIndex = 0;
             grdDocumentId.Width = 211;
             // 
             // grdUserId
@@ -181,7 +190,7 @@
             grdEmail.Name = "grdEmail";
             grdEmail.OptionsColumn.AllowEdit = false;
             grdEmail.Visible = true;
-            grdEmail.VisibleIndex = 1;
+            grdEmail.VisibleIndex = 0;
             grdEmail.Width = 185;
             // 
             // grdExpiredIn
@@ -192,7 +201,7 @@
             grdExpiredIn.Name = "grdExpiredIn";
             grdExpiredIn.OptionsColumn.AllowEdit = false;
             grdExpiredIn.Visible = true;
-            grdExpiredIn.VisibleIndex = 4;
+            grdExpiredIn.VisibleIndex = 3;
             grdExpiredIn.Width = 104;
             // 
             // grdSecurityLevel
@@ -203,7 +212,7 @@
             grdSecurityLevel.Name = "grdSecurityLevel";
             grdSecurityLevel.OptionsColumn.AllowEdit = false;
             grdSecurityLevel.Visible = true;
-            grdSecurityLevel.VisibleIndex = 2;
+            grdSecurityLevel.VisibleIndex = 1;
             grdSecurityLevel.Width = 125;
             // 
             // grdStatus
@@ -214,7 +223,7 @@
             grdStatus.Name = "grdStatus";
             grdStatus.OptionsColumn.AllowEdit = false;
             grdStatus.Visible = true;
-            grdStatus.VisibleIndex = 3;
+            grdStatus.VisibleIndex = 2;
             grdStatus.Width = 113;
             // 
             // grdIsActive
@@ -225,7 +234,7 @@
             grdIsActive.Name = "grdIsActive";
             grdIsActive.OptionsColumn.AllowEdit = false;
             grdIsActive.Visible = true;
-            grdIsActive.VisibleIndex = 5;
+            grdIsActive.VisibleIndex = 4;
             grdIsActive.Width = 77;
             // 
             // grdCreatedOn
@@ -236,7 +245,7 @@
             grdCreatedOn.Name = "grdCreatedOn";
             grdCreatedOn.OptionsColumn.AllowEdit = false;
             grdCreatedOn.Visible = true;
-            grdCreatedOn.VisibleIndex = 6;
+            grdCreatedOn.VisibleIndex = 5;
             grdCreatedOn.Width = 76;
             // 
             // grdCheckSum
@@ -246,8 +255,6 @@
             grdCheckSum.MinWidth = 30;
             grdCheckSum.Name = "grdCheckSum";
             grdCheckSum.OptionsColumn.AllowEdit = false;
-            grdCheckSum.Visible = true;
-            grdCheckSum.VisibleIndex = 7;
             grdCheckSum.Width = 154;
             // 
             // FrmMain

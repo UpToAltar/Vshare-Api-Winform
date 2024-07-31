@@ -26,6 +26,7 @@ namespace WinForms_Vsoft
         {
             var data = await DAO_DocumentWatchers.LoadData();
             grdCtrDocumentWatchers.DataSource = data;
+            grdViewDocumentWatchers.ExpandAllGroups();
         }
 
         private void btnLoad_ItemClick(object sender, ItemClickEventArgs e)

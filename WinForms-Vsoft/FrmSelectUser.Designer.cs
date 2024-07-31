@@ -29,6 +29,8 @@
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FrmSelectUser));
+            DevExpress.XtraGrid.GridFormatRule gridFormatRule1 = new DevExpress.XtraGrid.GridFormatRule();
+            DevExpress.XtraEditors.FormatConditionRuleValue formatConditionRuleValue1 = new DevExpress.XtraEditors.FormatConditionRuleValue();
             ribbon = new DevExpress.XtraBars.Ribbon.RibbonControl();
             btnSelect = new DevExpress.XtraBars.BarButtonItem();
             btnClose = new DevExpress.XtraBars.BarButtonItem();
@@ -52,7 +54,7 @@
             ribbon.ExpandCollapseItem.Id = 0;
             ribbon.Items.AddRange(new DevExpress.XtraBars.BarItem[] { ribbon.ExpandCollapseItem, ribbon.SearchEditItem, btnSelect, btnClose, btnLoadData });
             ribbon.Location = new Point(0, 0);
-            ribbon.MaxItemId = 4;
+            ribbon.MaxItemId = 5;
             ribbon.Name = "ribbon";
             ribbon.Pages.AddRange(new DevExpress.XtraBars.Ribbon.RibbonPage[] { ribbonPage1 });
             ribbon.Size = new Size(1322, 231);
@@ -119,6 +121,15 @@
             // gridViewUser
             // 
             gridViewUser.Columns.AddRange(new DevExpress.XtraGrid.Columns.GridColumn[] { gridId, grdEmail, grdFullName, grdIsActive });
+            gridFormatRule1.ApplyToRow = true;
+            gridFormatRule1.Column = grdIsActive;
+            gridFormatRule1.Name = "IsActive";
+            formatConditionRuleValue1.Appearance.BackColor = Color.FromArgb(255, 224, 192);
+            formatConditionRuleValue1.Appearance.Options.UseBackColor = true;
+            formatConditionRuleValue1.Condition = DevExpress.XtraEditors.FormatCondition.Equal;
+            formatConditionRuleValue1.Value1 = false;
+            gridFormatRule1.Rule = formatConditionRuleValue1;
+            gridViewUser.FormatRules.Add(gridFormatRule1);
             gridViewUser.GridControl = grdCtrUser;
             gridViewUser.Name = "gridViewUser";
             // 
@@ -129,8 +140,6 @@
             gridId.MinWidth = 30;
             gridId.Name = "gridId";
             gridId.OptionsColumn.AllowEdit = false;
-            gridId.Visible = true;
-            gridId.VisibleIndex = 0;
             gridId.Width = 322;
             // 
             // grdEmail
@@ -141,7 +150,7 @@
             grdEmail.Name = "grdEmail";
             grdEmail.OptionsColumn.AllowEdit = false;
             grdEmail.Visible = true;
-            grdEmail.VisibleIndex = 1;
+            grdEmail.VisibleIndex = 0;
             grdEmail.Width = 298;
             // 
             // grdFullName
@@ -152,7 +161,7 @@
             grdFullName.Name = "grdFullName";
             grdFullName.OptionsColumn.AllowEdit = false;
             grdFullName.Visible = true;
-            grdFullName.VisibleIndex = 2;
+            grdFullName.VisibleIndex = 1;
             grdFullName.Width = 260;
             // 
             // grdIsActive
@@ -163,7 +172,7 @@
             grdIsActive.Name = "grdIsActive";
             grdIsActive.OptionsColumn.AllowEdit = false;
             grdIsActive.Visible = true;
-            grdIsActive.VisibleIndex = 3;
+            grdIsActive.VisibleIndex = 2;
             grdIsActive.Width = 165;
             // 
             // FrmSelectUser

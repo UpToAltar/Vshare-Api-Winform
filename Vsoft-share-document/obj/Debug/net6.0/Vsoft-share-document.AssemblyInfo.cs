@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Vsoft-share-document")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+45d47cf70b51abc7551cd4d4cb72998064544686")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+aa2191fc8b631bd543167e67523b91dc4e97a5ae")]
 [assembly: System.Reflection.AssemblyProductAttribute("Vsoft-share-document")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Vsoft-share-document")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

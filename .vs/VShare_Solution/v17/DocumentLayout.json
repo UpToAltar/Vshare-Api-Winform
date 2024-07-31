@@ -3,20 +3,48 @@
   "WorkspaceRootPath": "D:\\VShare_Solution\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\VShare_Solution\\Vsoft-share-document\\WeatherForecast.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Vsoft-share-document\\WeatherForecast.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{190BF6F7-9838-47B6-88E1-251C292FD3FA}|WinForms-Vsoft\\WinForms-Vsoft.csproj|d:\\vshare_solution\\winforms-vsoft\\frmselectdocument.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{190BF6F7-9838-47B6-88E1-251C292FD3FA}|WinForms-Vsoft\\WinForms-Vsoft.csproj|solutionrelative:winforms-vsoft\\frmselectdocument.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{190BF6F7-9838-47B6-88E1-251C292FD3FA}|WinForms-Vsoft\\WinForms-Vsoft.csproj|d:\\vshare_solution\\winforms-vsoft\\frmselectdocument.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{190BF6F7-9838-47B6-88E1-251C292FD3FA}|WinForms-Vsoft\\WinForms-Vsoft.csproj|solutionrelative:winforms-vsoft\\frmselectdocument.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{190BF6F7-9838-47B6-88E1-251C292FD3FA}|WinForms-Vsoft\\WinForms-Vsoft.csproj|d:\\vshare_solution\\winforms-vsoft\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{190BF6F7-9838-47B6-88E1-251C292FD3FA}|WinForms-Vsoft\\WinForms-Vsoft.csproj|solutionrelative:winforms-vsoft\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{190BF6F7-9838-47B6-88E1-251C292FD3FA}|WinForms-Vsoft\\WinForms-Vsoft.csproj|d:\\vshare_solution\\winforms-vsoft\\frmmain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{190BF6F7-9838-47B6-88E1-251C292FD3FA}|WinForms-Vsoft\\WinForms-Vsoft.csproj|solutionrelative:winforms-vsoft\\frmmain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{190BF6F7-9838-47B6-88E1-251C292FD3FA}|WinForms-Vsoft\\WinForms-Vsoft.csproj|d:\\vshare_solution\\winforms-vsoft\\dao\\dao_documentwatchers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{190BF6F7-9838-47B6-88E1-251C292FD3FA}|WinForms-Vsoft\\WinForms-Vsoft.csproj|solutionrelative:winforms-vsoft\\dao\\dao_documentwatchers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E1D157BB-BE9A-4529-8EA7-5DB72E7E4F58}|Vsoft-share-document\\Vsoft-share-document.csproj|d:\\vshare_solution\\vsoft-share-document\\controllers\\documentwatcherscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E1D157BB-BE9A-4529-8EA7-5DB72E7E4F58}|Vsoft-share-document\\Vsoft-share-document.csproj|solutionrelative:vsoft-share-document\\controllers\\documentwatcherscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E1D157BB-BE9A-4529-8EA7-5DB72E7E4F58}|Vsoft-share-document\\Vsoft-share-document.csproj|d:\\vshare_solution\\vsoft-share-document\\dao\\documentwatchers_dao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E1D157BB-BE9A-4529-8EA7-5DB72E7E4F58}|Vsoft-share-document\\Vsoft-share-document.csproj|solutionrelative:vsoft-share-document\\dao\\documentwatchers_dao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E1D157BB-BE9A-4529-8EA7-5DB72E7E4F58}|Vsoft-share-document\\Vsoft-share-document.csproj|d:\\vshare_solution\\vsoft-share-document\\weatherforecast.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E1D157BB-BE9A-4529-8EA7-5DB72E7E4F58}|Vsoft-share-document\\Vsoft-share-document.csproj|solutionrelative:vsoft-share-document\\weatherforecast.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\VShare_Solution\\Vsoft-share-document\\Vsoft-share-document.csproj.user||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Vsoft-share-document\\Vsoft-share-document.csproj.user||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\VShare_Solution\\Vsoft-share-document\\Vsoft-share-document.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Vsoft-share-document\\Vsoft-share-document.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+      "AbsoluteMoniker": "D:0:0:{E1D157BB-BE9A-4529-8EA7-5DB72E7E4F58}|Vsoft-share-document\\Vsoft-share-document.csproj|d:\\vshare_solution\\vsoft-share-document\\vsoft-share-document.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{E1D157BB-BE9A-4529-8EA7-5DB72E7E4F58}|Vsoft-share-document\\Vsoft-share-document.csproj|solutionrelative:vsoft-share-document\\vsoft-share-document.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\VShare_Solution\\Vsoft-share-document\\Program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Vsoft-share-document\\Program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{E1D157BB-BE9A-4529-8EA7-5DB72E7E4F58}|Vsoft-share-document\\Vsoft-share-document.csproj|d:\\vshare_solution\\vsoft-share-document\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E1D157BB-BE9A-4529-8EA7-5DB72E7E4F58}|Vsoft-share-document\\Vsoft-share-document.csproj|solutionrelative:vsoft-share-document\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,7 +54,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Bookmark",
@@ -34,7 +62,95 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "FrmSelectDocument.cs",
+              "DocumentMoniker": "D:\\VShare_Solution\\WinForms-Vsoft\\FrmSelectDocument.cs",
+              "RelativeDocumentMoniker": "WinForms-Vsoft\\FrmSelectDocument.cs",
+              "ToolTip": "D:\\VShare_Solution\\WinForms-Vsoft\\FrmSelectDocument.cs",
+              "RelativeToolTip": "WinForms-Vsoft\\FrmSelectDocument.cs",
+              "ViewState": "AQIAABoAAAAAAAAAAIAzwCcAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-31T10:33:02.15Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "FrmSelectDocument.cs [Design]",
+              "DocumentMoniker": "D:\\VShare_Solution\\WinForms-Vsoft\\FrmSelectDocument.cs",
+              "RelativeDocumentMoniker": "WinForms-Vsoft\\FrmSelectDocument.cs",
+              "ToolTip": "D:\\VShare_Solution\\WinForms-Vsoft\\FrmSelectDocument.cs [Design]",
+              "RelativeToolTip": "WinForms-Vsoft\\FrmSelectDocument.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-31T10:15:05.768Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\VShare_Solution\\WinForms-Vsoft\\Program.cs",
+              "RelativeDocumentMoniker": "WinForms-Vsoft\\Program.cs",
+              "ToolTip": "D:\\VShare_Solution\\WinForms-Vsoft\\Program.cs",
+              "RelativeToolTip": "WinForms-Vsoft\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAArAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-31T10:42:46.136Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "DAO_DocumentWatchers.cs",
+              "DocumentMoniker": "D:\\VShare_Solution\\WinForms-Vsoft\\DAO\\DAO_DocumentWatchers.cs",
+              "RelativeDocumentMoniker": "WinForms-Vsoft\\DAO\\DAO_DocumentWatchers.cs",
+              "ToolTip": "D:\\VShare_Solution\\WinForms-Vsoft\\DAO\\DAO_DocumentWatchers.cs",
+              "RelativeToolTip": "WinForms-Vsoft\\DAO\\DAO_DocumentWatchers.cs",
+              "ViewState": "AQIAAA4AAAAAAAAAAAAAwA0AAAAlAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-31T09:55:17.508Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "DocumentWatchersController.cs",
+              "DocumentMoniker": "D:\\VShare_Solution\\Vsoft-share-document\\Controllers\\DocumentWatchersController.cs",
+              "RelativeDocumentMoniker": "Vsoft-share-document\\Controllers\\DocumentWatchersController.cs",
+              "ToolTip": "D:\\VShare_Solution\\Vsoft-share-document\\Controllers\\DocumentWatchersController.cs",
+              "RelativeToolTip": "Vsoft-share-document\\Controllers\\DocumentWatchersController.cs",
+              "ViewState": "AQIAAFEAAAAAAAAAAAAowFgAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-31T09:47:12.577Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "FrmMain.cs",
+              "DocumentMoniker": "D:\\VShare_Solution\\WinForms-Vsoft\\FrmMain.cs",
+              "RelativeDocumentMoniker": "WinForms-Vsoft\\FrmMain.cs",
+              "ToolTip": "D:\\VShare_Solution\\WinForms-Vsoft\\FrmMain.cs",
+              "RelativeToolTip": "WinForms-Vsoft\\FrmMain.cs",
+              "ViewState": "AQIAADEAAAAAAAAAAAAkwB8AAABLAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-31T08:59:07.016Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "DocumentWatchers_DAO.cs",
+              "DocumentMoniker": "D:\\VShare_Solution\\Vsoft-share-document\\DAO\\DocumentWatchers_DAO.cs",
+              "RelativeDocumentMoniker": "Vsoft-share-document\\DAO\\DocumentWatchers_DAO.cs",
+              "ToolTip": "D:\\VShare_Solution\\Vsoft-share-document\\DAO\\DocumentWatchers_DAO.cs",
+              "RelativeToolTip": "Vsoft-share-document\\DAO\\DocumentWatchers_DAO.cs",
+              "ViewState": "AQIAADUAAAAAAAAAAAAgwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-31T09:47:42.063Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
               "Title": "Vsoft-share-document.csproj.user",
               "DocumentMoniker": "D:\\VShare_Solution\\Vsoft-share-document\\Vsoft-share-document.csproj.user",
               "RelativeDocumentMoniker": "Vsoft-share-document\\Vsoft-share-document.csproj.user",
@@ -42,12 +158,11 @@
               "RelativeToolTip": "Vsoft-share-document\\Vsoft-share-document.csproj.user",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003464|",
-              "WhenOpened": "2024-07-31T07:00:17.276Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-31T07:00:17.276Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 7,
               "Title": "WeatherForecast.cs",
               "DocumentMoniker": "D:\\VShare_Solution\\Vsoft-share-document\\WeatherForecast.cs",
               "RelativeDocumentMoniker": "Vsoft-share-document\\WeatherForecast.cs",
@@ -55,12 +170,11 @@
               "RelativeToolTip": "Vsoft-share-document\\WeatherForecast.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-31T07:00:16.354Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-31T07:00:16.354Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 9,
               "Title": "Vsoft-share-document.csproj",
               "DocumentMoniker": "D:\\VShare_Solution\\Vsoft-share-document\\Vsoft-share-document.csproj",
               "RelativeDocumentMoniker": "Vsoft-share-document\\Vsoft-share-document.csproj",
@@ -73,7 +187,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 10,
               "Title": "Program.cs",
               "DocumentMoniker": "D:\\VShare_Solution\\Vsoft-share-document\\Program.cs",
               "RelativeDocumentMoniker": "Vsoft-share-document\\Program.cs",
@@ -81,8 +195,7 @@
               "RelativeToolTip": "Vsoft-share-document\\Program.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-31T07:00:05.622Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-31T07:00:05.622Z"
             }
           ]
         }

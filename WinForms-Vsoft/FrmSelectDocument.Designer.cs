@@ -29,6 +29,13 @@
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FrmSelectDocument));
+            DevExpress.XtraGrid.GridFormatRule gridFormatRule4 = new DevExpress.XtraGrid.GridFormatRule();
+            DevExpress.XtraEditors.FormatConditionRuleValue formatConditionRuleValue4 = new DevExpress.XtraEditors.FormatConditionRuleValue();
+            DevExpress.XtraGrid.GridFormatRule gridFormatRule5 = new DevExpress.XtraGrid.GridFormatRule();
+            DevExpress.XtraEditors.FormatConditionRuleValue formatConditionRuleValue5 = new DevExpress.XtraEditors.FormatConditionRuleValue();
+            DevExpress.XtraGrid.GridFormatRule gridFormatRule6 = new DevExpress.XtraGrid.GridFormatRule();
+            DevExpress.XtraEditors.FormatConditionRuleValue formatConditionRuleValue6 = new DevExpress.XtraEditors.FormatConditionRuleValue();
+            grdStatus = new DevExpress.XtraGrid.Columns.GridColumn();
             ribbon = new DevExpress.XtraBars.Ribbon.RibbonControl();
             btnSelect = new DevExpress.XtraBars.BarButtonItem();
             btnClose = new DevExpress.XtraBars.BarButtonItem();
@@ -39,17 +46,25 @@
             grdCtrDocument = new DevExpress.XtraGrid.GridControl();
             grdViewDocument = new DevExpress.XtraGrid.Views.Grid.GridView();
             gridId = new DevExpress.XtraGrid.Columns.GridColumn();
+            grdDocumentSummary = new DevExpress.XtraGrid.Columns.GridColumn();
             grdFKey = new DevExpress.XtraGrid.Columns.GridColumn();
             grdCode = new DevExpress.XtraGrid.Columns.GridColumn();
             grdIsActive = new DevExpress.XtraGrid.Columns.GridColumn();
             grdSecurityLevel = new DevExpress.XtraGrid.Columns.GridColumn();
-            grdDocumentSummary = new DevExpress.XtraGrid.Columns.GridColumn();
             grdStatusMessage = new DevExpress.XtraGrid.Columns.GridColumn();
-            grdStatus = new DevExpress.XtraGrid.Columns.GridColumn();
+            label1 = new Label();
             ((System.ComponentModel.ISupportInitialize)ribbon).BeginInit();
             ((System.ComponentModel.ISupportInitialize)grdCtrDocument).BeginInit();
             ((System.ComponentModel.ISupportInitialize)grdViewDocument).BeginInit();
             SuspendLayout();
+            // 
+            // grdStatus
+            // 
+            grdStatus.Caption = "Trạng thái";
+            grdStatus.FieldName = "Status";
+            grdStatus.MinWidth = 30;
+            grdStatus.Name = "grdStatus";
+            grdStatus.Width = 112;
             // 
             // ribbon
             // 
@@ -105,7 +120,7 @@
             // 
             // ribbonStatusBar
             // 
-            ribbonStatusBar.Location = new Point(0, 730);
+            ribbonStatusBar.Location = new Point(0, 826);
             ribbonStatusBar.Name = "ribbonStatusBar";
             ribbonStatusBar.Ribbon = ribbon;
             ribbonStatusBar.Size = new Size(1322, 36);
@@ -116,13 +131,40 @@
             grdCtrDocument.MainView = grdViewDocument;
             grdCtrDocument.MenuManager = ribbon;
             grdCtrDocument.Name = "grdCtrDocument";
-            grdCtrDocument.Size = new Size(1322, 487);
+            grdCtrDocument.Size = new Size(1322, 591);
             grdCtrDocument.TabIndex = 2;
             grdCtrDocument.ViewCollection.AddRange(new DevExpress.XtraGrid.Views.Base.BaseView[] { grdViewDocument });
             // 
             // grdViewDocument
             // 
             grdViewDocument.Columns.AddRange(new DevExpress.XtraGrid.Columns.GridColumn[] { gridId, grdDocumentSummary, grdFKey, grdCode, grdIsActive, grdSecurityLevel, grdStatusMessage, grdStatus });
+            gridFormatRule4.ApplyToRow = true;
+            gridFormatRule4.Column = grdStatus;
+            gridFormatRule4.Name = "Status0";
+            formatConditionRuleValue4.Appearance.BackColor = Color.FromArgb(255, 224, 192);
+            formatConditionRuleValue4.Appearance.Options.UseBackColor = true;
+            formatConditionRuleValue4.Condition = DevExpress.XtraEditors.FormatCondition.Equal;
+            formatConditionRuleValue4.Value1 = (short)0;
+            gridFormatRule4.Rule = formatConditionRuleValue4;
+            gridFormatRule5.ApplyToRow = true;
+            gridFormatRule5.Column = grdStatus;
+            gridFormatRule5.Name = "Status2";
+            formatConditionRuleValue5.Appearance.BackColor = Color.FromArgb(255, 224, 192);
+            formatConditionRuleValue5.Appearance.Options.UseBackColor = true;
+            formatConditionRuleValue5.Condition = DevExpress.XtraEditors.FormatCondition.Equal;
+            formatConditionRuleValue5.Value1 = (short)2;
+            gridFormatRule5.Rule = formatConditionRuleValue5;
+            gridFormatRule6.ApplyToRow = true;
+            gridFormatRule6.Column = grdStatus;
+            gridFormatRule6.Name = "Status4";
+            formatConditionRuleValue6.Appearance.BackColor = Color.FromArgb(255, 224, 192);
+            formatConditionRuleValue6.Appearance.Options.UseBackColor = true;
+            formatConditionRuleValue6.Condition = DevExpress.XtraEditors.FormatCondition.Equal;
+            formatConditionRuleValue6.Value1 = (short)4;
+            gridFormatRule6.Rule = formatConditionRuleValue6;
+            grdViewDocument.FormatRules.Add(gridFormatRule4);
+            grdViewDocument.FormatRules.Add(gridFormatRule5);
+            grdViewDocument.FormatRules.Add(gridFormatRule6);
             grdViewDocument.GridControl = grdCtrDocument;
             grdViewDocument.Name = "grdViewDocument";
             // 
@@ -133,9 +175,18 @@
             gridId.MinWidth = 30;
             gridId.Name = "gridId";
             gridId.OptionsColumn.AllowEdit = false;
-            gridId.Visible = true;
-            gridId.VisibleIndex = 0;
             gridId.Width = 220;
+            // 
+            // grdDocumentSummary
+            // 
+            grdDocumentSummary.Caption = "Tóm tắt tài liệu";
+            grdDocumentSummary.FieldName = "DocumentSummary";
+            grdDocumentSummary.MinWidth = 30;
+            grdDocumentSummary.Name = "grdDocumentSummary";
+            grdDocumentSummary.OptionsColumn.AllowEdit = false;
+            grdDocumentSummary.Visible = true;
+            grdDocumentSummary.VisibleIndex = 1;
+            grdDocumentSummary.Width = 202;
             // 
             // grdFKey
             // 
@@ -144,8 +195,6 @@
             grdFKey.MinWidth = 30;
             grdFKey.Name = "grdFKey";
             grdFKey.OptionsColumn.AllowEdit = false;
-            grdFKey.Visible = true;
-            grdFKey.VisibleIndex = 2;
             grdFKey.Width = 183;
             // 
             // grdCode
@@ -156,7 +205,7 @@
             grdCode.Name = "grdCode";
             grdCode.OptionsColumn.AllowEdit = false;
             grdCode.Visible = true;
-            grdCode.VisibleIndex = 3;
+            grdCode.VisibleIndex = 0;
             grdCode.Width = 118;
             // 
             // grdIsActive
@@ -178,19 +227,8 @@
             grdSecurityLevel.Name = "grdSecurityLevel";
             grdSecurityLevel.OptionsColumn.AllowEdit = false;
             grdSecurityLevel.Visible = true;
-            grdSecurityLevel.VisibleIndex = 5;
+            grdSecurityLevel.VisibleIndex = 3;
             grdSecurityLevel.Width = 106;
-            // 
-            // grdDocumentSummary
-            // 
-            grdDocumentSummary.Caption = "Tóm tắt tài liệu";
-            grdDocumentSummary.FieldName = "DocumentSummary";
-            grdDocumentSummary.MinWidth = 30;
-            grdDocumentSummary.Name = "grdDocumentSummary";
-            grdDocumentSummary.OptionsColumn.AllowEdit = false;
-            grdDocumentSummary.Visible = true;
-            grdDocumentSummary.VisibleIndex = 1;
-            grdDocumentSummary.Width = 202;
             // 
             // grdStatusMessage
             // 
@@ -200,22 +238,24 @@
             grdStatusMessage.Name = "grdStatusMessage";
             grdStatusMessage.OptionsColumn.AllowEdit = false;
             grdStatusMessage.Visible = true;
-            grdStatusMessage.VisibleIndex = 6;
+            grdStatusMessage.VisibleIndex = 2;
             grdStatusMessage.Width = 121;
             // 
-            // grdStatus
+            // label1
             // 
-            grdStatus.Caption = "Trạng thái";
-            grdStatus.FieldName = "Status";
-            grdStatus.MinWidth = 30;
-            grdStatus.Name = "grdStatus";
-            grdStatus.Width = 112;
+            label1.AutoSize = true;
+            label1.Font = new Font("Tahoma", 14F, FontStyle.Bold, GraphicsUnit.Point);
+            label1.Location = new Point(128, 254);
+            label1.Name = "label1";
+            label1.Size = new Size(0, 34);
+            label1.TabIndex = 5;
             // 
             // FrmSelectDocument
             // 
             AutoScaleDimensions = new SizeF(9F, 19F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(1322, 766);
+            ClientSize = new Size(1322, 862);
+            Controls.Add(label1);
             Controls.Add(grdCtrDocument);
             Controls.Add(ribbonStatusBar);
             Controls.Add(ribbon);
@@ -250,5 +290,6 @@
         private DevExpress.XtraGrid.Columns.GridColumn grdSecurityLevel;
         private DevExpress.XtraGrid.Columns.GridColumn grdStatusMessage;
         private DevExpress.XtraGrid.Columns.GridColumn grdStatus;
+        private Label label1;
     }
 }

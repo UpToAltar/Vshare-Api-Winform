@@ -16,9 +16,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Reference Include="Vsoft-share-document">
-      <HintPath>D:\vsoft\Vsoft-share-document\bin\Debug\net6.0\Vsoft-share-document.dll</HintPath>
-    </Reference>
+    <ProjectReference Include="..\Vsoft-share-document\Vsoft-share-document.csproj" />
   </ItemGroup>
 
   <ItemGroup>
