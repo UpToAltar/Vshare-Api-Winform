@@ -35,7 +35,7 @@ namespace WinForms_Vsoft.DAO
             return lst != null ? lst : new List<ENT_Document>();
         }
 
-        public async Task<string> PostDataReturnMsg(Dictionary<string, object> body)
+        public async Task<string> PostDataReturnMsg(object body)
         {
             string url = ApiURL.POST_DOCUMENTWATCHERS;
             string msg = await ApiClient.PostDataReturnMsg(url,body);

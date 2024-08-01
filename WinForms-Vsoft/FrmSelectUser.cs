@@ -8,6 +8,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using Vsoft_share_document.DTO;
 using WinForms_Vsoft.DAO;
 
 namespace WinForms_Vsoft
@@ -15,6 +16,7 @@ namespace WinForms_Vsoft
     public partial class FrmSelectUser : DevExpress.XtraBars.Ribbon.RibbonForm
     {
         DAO_DocumentWatchers DAO_DocumentWatchers = new DAO_DocumentWatchers();
+        public List<ENT_User> lstSelectedUser = new List<ENT_User>();
         public string UserId { get; set; } = "";
         public FrmSelectUser()
         {
@@ -40,27 +42,18 @@ namespace WinForms_Vsoft
 
         private void btnSelect_ItemClick(object sender, ItemClickEventArgs e)
         {
+            
             // Lấy dòng hiện tại đang chọn
             if (gridViewUser.SelectedRowsCount > 0)
             {
-                // Lấy chỉ số của dòng đầu tiên đang chọn
-                int focusedRowHandle = gridViewUser.GetSelectedRows()[0];
-
-                // Lấy giá trị của cột Id
-                var idValue = gridViewUser.GetRowCellValue(focusedRowHandle, "Id");
-                var isActive = gridViewUser.GetRowCellValue(focusedRowHandle, "IsActive");
-                if (!(bool)isActive) {
-                    MessageBox.Show($"Người dùng hệ thống chưa được kích hoạt");
-                }
-                else
+                int[] selectedRowHandles = gridViewUser.GetSelectedRows();
+                foreach (int rowHandle in selectedRowHandles)
                 {
-                    UserId = idValue.ToString();
-
-                    // Hiển thị giá trị Id
-                    MessageBox.Show($"Đã chọn người dùng Id: {idValue}");
-                    this.Close();
+                    ENT_User rowData = gridViewUser.GetRow(rowHandle) as ENT_User; 
+                    if(rowData != null && rowData.IsActive) lstSelectedUser.Add(rowData);
                 }
-                
+                this.Close();
+
             }
             else
             {

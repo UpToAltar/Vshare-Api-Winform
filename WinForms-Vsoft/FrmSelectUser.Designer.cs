@@ -31,6 +31,7 @@
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FrmSelectUser));
             DevExpress.XtraGrid.GridFormatRule gridFormatRule1 = new DevExpress.XtraGrid.GridFormatRule();
             DevExpress.XtraEditors.FormatConditionRuleValue formatConditionRuleValue1 = new DevExpress.XtraEditors.FormatConditionRuleValue();
+            grdIsActive = new DevExpress.XtraGrid.Columns.GridColumn();
             ribbon = new DevExpress.XtraBars.Ribbon.RibbonControl();
             btnSelect = new DevExpress.XtraBars.BarButtonItem();
             btnClose = new DevExpress.XtraBars.BarButtonItem();
@@ -43,11 +44,21 @@
             gridId = new DevExpress.XtraGrid.Columns.GridColumn();
             grdEmail = new DevExpress.XtraGrid.Columns.GridColumn();
             grdFullName = new DevExpress.XtraGrid.Columns.GridColumn();
-            grdIsActive = new DevExpress.XtraGrid.Columns.GridColumn();
             ((System.ComponentModel.ISupportInitialize)ribbon).BeginInit();
             ((System.ComponentModel.ISupportInitialize)grdCtrUser).BeginInit();
             ((System.ComponentModel.ISupportInitialize)gridViewUser).BeginInit();
             SuspendLayout();
+            // 
+            // grdIsActive
+            // 
+            grdIsActive.Caption = "Kích hoạt";
+            grdIsActive.FieldName = "IsActive";
+            grdIsActive.MinWidth = 30;
+            grdIsActive.Name = "grdIsActive";
+            grdIsActive.OptionsColumn.AllowEdit = false;
+            grdIsActive.Visible = true;
+            grdIsActive.VisibleIndex = 3;
+            grdIsActive.Width = 165;
             // 
             // ribbon
             // 
@@ -132,6 +143,8 @@
             gridViewUser.FormatRules.Add(gridFormatRule1);
             gridViewUser.GridControl = grdCtrUser;
             gridViewUser.Name = "gridViewUser";
+            gridViewUser.OptionsSelection.MultiSelect = true;
+            gridViewUser.OptionsSelection.MultiSelectMode = DevExpress.XtraGrid.Views.Grid.GridMultiSelectMode.CheckBoxRowSelect;
             // 
             // gridId
             // 
@@ -150,7 +163,7 @@
             grdEmail.Name = "grdEmail";
             grdEmail.OptionsColumn.AllowEdit = false;
             grdEmail.Visible = true;
-            grdEmail.VisibleIndex = 0;
+            grdEmail.VisibleIndex = 1;
             grdEmail.Width = 298;
             // 
             // grdFullName
@@ -161,19 +174,8 @@
             grdFullName.Name = "grdFullName";
             grdFullName.OptionsColumn.AllowEdit = false;
             grdFullName.Visible = true;
-            grdFullName.VisibleIndex = 1;
+            grdFullName.VisibleIndex = 2;
             grdFullName.Width = 260;
-            // 
-            // grdIsActive
-            // 
-            grdIsActive.Caption = "Kích hoạt";
-            grdIsActive.FieldName = "IsActive";
-            grdIsActive.MinWidth = 30;
-            grdIsActive.Name = "grdIsActive";
-            grdIsActive.OptionsColumn.AllowEdit = false;
-            grdIsActive.Visible = true;
-            grdIsActive.VisibleIndex = 2;
-            grdIsActive.Width = 165;
             // 
             // FrmSelectUser
             // 

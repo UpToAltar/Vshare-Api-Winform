@@ -247,7 +247,6 @@ D:\VShare_Solution\WinForms-Vsoft\bin\Debug\net6.0-windows\ru\Microsoft.Data.Sql
 D:\VShare_Solution\WinForms-Vsoft\bin\Debug\net6.0-windows\zh-Hans\Microsoft.Data.SqlClient.resources.dll
 D:\VShare_Solution\WinForms-Vsoft\bin\Debug\net6.0-windows\zh-Hant\Microsoft.Data.SqlClient.resources.dll
 D:\VShare_Solution\WinForms-Vsoft\obj\Debug\net6.0-windows\WinForms-Vsoft.csproj.AssemblyReference.cache
-D:\VShare_Solution\WinForms-Vsoft\obj\Debug\net6.0-windows\WinForms_Vsoft.FrmAdd.resources
 D:\VShare_Solution\WinForms-Vsoft\obj\Debug\net6.0-windows\WinForms_Vsoft.FrmMain.resources
 D:\VShare_Solution\WinForms-Vsoft\obj\Debug\net6.0-windows\WinForms_Vsoft.FrmSelectDocument.resources
 D:\VShare_Solution\WinForms-Vsoft\obj\Debug\net6.0-windows\WinForms_Vsoft.FrmSelectUser.resources
@@ -301,3 +300,4 @@ D:\VShare_Solution\WinForms-Vsoft\bin\Debug\net6.0-windows\runtimes\win-arm64\na
 D:\VShare_Solution\WinForms-Vsoft\bin\Debug\net6.0-windows\runtimes\win-x64\native\WebView2Loader.dll
 D:\VShare_Solution\WinForms-Vsoft\bin\Debug\net6.0-windows\runtimes\win-x86\native\WebView2Loader.dll
 D:\VShare_Solution\WinForms-Vsoft\bin\Debug\net6.0-windows\runtimes\win\lib\net6.0\System.Runtime.Caching.dll
+D:\VShare_Solution\WinForms-Vsoft\obj\Debug\net6.0-windows\WinForms_Vsoft.FrmSelectEmail.resources

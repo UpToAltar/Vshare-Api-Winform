@@ -36,7 +36,7 @@ namespace WinForms_Vsoft
 
         private void btnAdd_ItemClick(object sender, ItemClickEventArgs e)
         {
-            var addForm = new FrmAdd();
+            var addForm = new FrmSelectDocument();
             this.Hide();
             addForm.ShowDialog();
             this.Show();

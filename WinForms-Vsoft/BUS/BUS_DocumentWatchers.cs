@@ -40,5 +40,57 @@ namespace WinForms_Vsoft.BUS
             string msg = await DAO_DocumentWatchers.PostDataReturnMsg(param); 
             return msg;
         }
+
+        public async Task<DTO_Response> SaveData(ENT_Document document, List<ENT_User> users, DateEdit expiredIn, bool isChecked)
+        {
+            string result = "";
+            bool success = true;
+            foreach (var user in users) {
+                // Khai báo body khi post
+                object body;
+                if(user.Id == Guid.Empty)
+                {
+                    body = new
+                    {
+                        DocumentId = document.Id,
+                        Email = user.Email,
+                        ExpiredIn = ((DateTime)expiredIn.EditValue).ToString("dd-MM-yyyy"),
+                        IsActive = isChecked
+                    };
+                }
+                else
+                {
+                    body = new ENT_CreateDocumentWatchers
+                    {
+                        DocumentId= document.Id,
+                        Email = user.Email,
+                        UserId = user.Id,
+                        ExpiredIn = ((DateTime)expiredIn.EditValue).ToString("dd-MM-yyyy"),
+                        IsActive = isChecked
+                    };
+                }
+
+                //Thực hiện post data trả về msg
+                string msg = await DAO_DocumentWatchers.PostDataReturnMsg(body);
+                if(msg == "")
+                {
+                    //Thành công
+                    result += $"Chia sẻ thành công tài liệu cho người dùng có email : {user.Email} \n";
+                }
+                else
+                {
+                    //Thất bại
+                    result += $"Lỗi chia sẻ tài liệu cho người dùng có email {user.Email} : {msg} \n";
+                    success = false;
+                }
+            }
+            return new DTO_Response
+            {
+                Message = result,
+                Success = success,
+                Data = null
+            };
+        }
+
     }
 }

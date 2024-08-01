@@ -28,7 +28,7 @@ namespace WinForms_Vsoft.APIHelper
             }
         }
 
-        public static async Task<string> PostDataReturnMsg(string url, Dictionary<string,object> data)
+        public static async Task<string> PostDataReturnMsg(string url, object data)
         {
             try
             {
