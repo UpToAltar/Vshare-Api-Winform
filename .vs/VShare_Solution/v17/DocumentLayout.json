@@ -3,20 +3,32 @@
   "WorkspaceRootPath": "D:\\VShare_Solution\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{190BF6F7-9838-47B6-88E1-251C292FD3FA}|WinForms-Vsoft\\WinForms-Vsoft.csproj|D:\\VShare_Solution\\winforms-vsoft\\frmselectemail.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{190BF6F7-9838-47B6-88E1-251C292FD3FA}|WinForms-Vsoft\\WinForms-Vsoft.csproj|solutionrelative:winforms-vsoft\\frmselectemail.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{190BF6F7-9838-47B6-88E1-251C292FD3FA}|WinForms-Vsoft\\WinForms-Vsoft.csproj|d:\\vshare_solution\\winforms-vsoft\\frmselectdocument.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{190BF6F7-9838-47B6-88E1-251C292FD3FA}|WinForms-Vsoft\\WinForms-Vsoft.csproj|solutionrelative:winforms-vsoft\\frmselectdocument.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{190BF6F7-9838-47B6-88E1-251C292FD3FA}|WinForms-Vsoft\\WinForms-Vsoft.csproj|D:\\VShare_Solution\\winforms-vsoft\\frmmain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{190BF6F7-9838-47B6-88E1-251C292FD3FA}|WinForms-Vsoft\\WinForms-Vsoft.csproj|solutionrelative:winforms-vsoft\\frmmain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{190BF6F7-9838-47B6-88E1-251C292FD3FA}|WinForms-Vsoft\\WinForms-Vsoft.csproj|d:\\vshare_solution\\winforms-vsoft\\frmselectuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{190BF6F7-9838-47B6-88E1-251C292FD3FA}|WinForms-Vsoft\\WinForms-Vsoft.csproj|solutionrelative:winforms-vsoft\\frmselectuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{190BF6F7-9838-47B6-88E1-251C292FD3FA}|WinForms-Vsoft\\WinForms-Vsoft.csproj|d:\\vshare_solution\\winforms-vsoft\\frmselectuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{190BF6F7-9838-47B6-88E1-251C292FD3FA}|WinForms-Vsoft\\WinForms-Vsoft.csproj|solutionrelative:winforms-vsoft\\frmselectuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{190BF6F7-9838-47B6-88E1-251C292FD3FA}|WinForms-Vsoft\\WinForms-Vsoft.csproj|d:\\vshare_solution\\winforms-vsoft\\frmselectdocument.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{190BF6F7-9838-47B6-88E1-251C292FD3FA}|WinForms-Vsoft\\WinForms-Vsoft.csproj|solutionrelative:winforms-vsoft\\frmselectdocument.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{190BF6F7-9838-47B6-88E1-251C292FD3FA}|WinForms-Vsoft\\WinForms-Vsoft.csproj|d:\\vshare_solution\\winforms-vsoft\\frmselectuser.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{190BF6F7-9838-47B6-88E1-251C292FD3FA}|WinForms-Vsoft\\WinForms-Vsoft.csproj|solutionrelative:winforms-vsoft\\frmselectuser.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{190BF6F7-9838-47B6-88E1-251C292FD3FA}|WinForms-Vsoft\\WinForms-Vsoft.csproj|d:\\vshare_solution\\winforms-vsoft\\bus\\bus_documentwatchers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{190BF6F7-9838-47B6-88E1-251C292FD3FA}|WinForms-Vsoft\\WinForms-Vsoft.csproj|solutionrelative:winforms-vsoft\\bus\\bus_documentwatchers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{190BF6F7-9838-47B6-88E1-251C292FD3FA}|WinForms-Vsoft\\WinForms-Vsoft.csproj|d:\\vshare_solution\\winforms-vsoft\\frmselectdocument.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{190BF6F7-9838-47B6-88E1-251C292FD3FA}|WinForms-Vsoft\\WinForms-Vsoft.csproj|solutionrelative:winforms-vsoft\\frmselectdocument.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{190BF6F7-9838-47B6-88E1-251C292FD3FA}|WinForms-Vsoft\\WinForms-Vsoft.csproj|d:\\vshare_solution\\winforms-vsoft\\dao\\dao_documentwatchers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -25,10 +37,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{190BF6F7-9838-47B6-88E1-251C292FD3FA}|WinForms-Vsoft\\WinForms-Vsoft.csproj|d:\\vshare_solution\\winforms-vsoft\\dto\\dto_response.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{190BF6F7-9838-47B6-88E1-251C292FD3FA}|WinForms-Vsoft\\WinForms-Vsoft.csproj|solutionrelative:winforms-vsoft\\dto\\dto_response.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{190BF6F7-9838-47B6-88E1-251C292FD3FA}|WinForms-Vsoft\\WinForms-Vsoft.csproj|d:\\vshare_solution\\winforms-vsoft\\frmselectdocument.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{190BF6F7-9838-47B6-88E1-251C292FD3FA}|WinForms-Vsoft\\WinForms-Vsoft.csproj|solutionrelative:winforms-vsoft\\frmselectdocument.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
       "AbsoluteMoniker": "D:0:0:{190BF6F7-9838-47B6-88E1-251C292FD3FA}|WinForms-Vsoft\\WinForms-Vsoft.csproj|d:\\vshare_solution\\winforms-vsoft\\dto\\dto_documentwatchers_view.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -43,10 +51,6 @@
       "RelativeMoniker": "D:0:0:{190BF6F7-9838-47B6-88E1-251C292FD3FA}|WinForms-Vsoft\\WinForms-Vsoft.csproj|solutionrelative:winforms-vsoft\\winforms-vsoft.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{190BF6F7-9838-47B6-88E1-251C292FD3FA}|WinForms-Vsoft\\WinForms-Vsoft.csproj|d:\\vshare_solution\\winforms-vsoft\\frmselectemail.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{190BF6F7-9838-47B6-88E1-251C292FD3FA}|WinForms-Vsoft\\WinForms-Vsoft.csproj|solutionrelative:winforms-vsoft\\frmselectemail.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{190BF6F7-9838-47B6-88E1-251C292FD3FA}|WinForms-Vsoft\\WinForms-Vsoft.csproj|d:\\vshare_solution\\winforms-vsoft\\frmselectemail.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{190BF6F7-9838-47B6-88E1-251C292FD3FA}|WinForms-Vsoft\\WinForms-Vsoft.csproj|solutionrelative:winforms-vsoft\\frmselectemail.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -57,10 +61,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{E1D157BB-BE9A-4529-8EA7-5DB72E7E4F58}|Vsoft-share-document\\Vsoft-share-document.csproj|d:\\vshare_solution\\vsoft-share-document\\vsoft-share-document.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
       "RelativeMoniker": "D:0:0:{E1D157BB-BE9A-4529-8EA7-5DB72E7E4F58}|Vsoft-share-document\\Vsoft-share-document.csproj|solutionrelative:vsoft-share-document\\vsoft-share-document.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{190BF6F7-9838-47B6-88E1-251C292FD3FA}|WinForms-Vsoft\\WinForms-Vsoft.csproj|d:\\vshare_solution\\winforms-vsoft\\frmselectuser.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{190BF6F7-9838-47B6-88E1-251C292FD3FA}|WinForms-Vsoft\\WinForms-Vsoft.csproj|solutionrelative:winforms-vsoft\\frmselectuser.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{190BF6F7-9838-47B6-88E1-251C292FD3FA}|WinForms-Vsoft\\WinForms-Vsoft.csproj|d:\\vshare_solution\\winforms-vsoft\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -107,18 +107,30 @@
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "FrmSelectUser.cs [Design]",
-              "DocumentMoniker": "D:\\VShare_Solution\\WinForms-Vsoft\\FrmSelectUser.cs",
-              "RelativeDocumentMoniker": "WinForms-Vsoft\\FrmSelectUser.cs",
-              "ToolTip": "D:\\VShare_Solution\\WinForms-Vsoft\\FrmSelectUser.cs [Design]",
-              "RelativeToolTip": "WinForms-Vsoft\\FrmSelectUser.cs [Design]",
+              "Title": "FrmSelectDocument.cs [Design]",
+              "DocumentMoniker": "D:\\VShare_Solution\\WinForms-Vsoft\\FrmSelectDocument.cs",
+              "RelativeDocumentMoniker": "WinForms-Vsoft\\FrmSelectDocument.cs",
+              "ToolTip": "D:\\VShare_Solution\\WinForms-Vsoft\\FrmSelectDocument.cs [Design]",
+              "RelativeToolTip": "WinForms-Vsoft\\FrmSelectDocument.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-01T07:43:35.297Z",
+              "WhenOpened": "2024-08-01T08:56:07.716Z",
               "EditorCaption": " [Design]"
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
+              "Title": "FrmMain.cs [Design]",
+              "DocumentMoniker": "D:\\VShare_Solution\\WinForms-Vsoft\\FrmMain.cs",
+              "RelativeDocumentMoniker": "WinForms-Vsoft\\FrmMain.cs",
+              "ToolTip": "D:\\VShare_Solution\\WinForms-Vsoft\\FrmMain.cs [Design]",
+              "RelativeToolTip": "WinForms-Vsoft\\FrmMain.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-01T08:43:14.905Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
               "Title": "FrmSelectDocument.cs",
               "DocumentMoniker": "D:\\VShare_Solution\\WinForms-Vsoft\\FrmSelectDocument.cs",
               "RelativeDocumentMoniker": "WinForms-Vsoft\\FrmSelectDocument.cs",
@@ -126,25 +138,36 @@
               "RelativeToolTip": "WinForms-Vsoft\\FrmSelectDocument.cs",
               "ViewState": "AQIAAD4AAAAAAAAAAAAmwFAAAAAxAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-01T02:11:43.052Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-01T02:11:43.052Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "BUS_DocumentWatchers.cs",
-              "DocumentMoniker": "D:\\VShare_Solution\\WinForms-Vsoft\\BUS\\BUS_DocumentWatchers.cs",
-              "RelativeDocumentMoniker": "WinForms-Vsoft\\BUS\\BUS_DocumentWatchers.cs",
-              "ToolTip": "D:\\VShare_Solution\\WinForms-Vsoft\\BUS\\BUS_DocumentWatchers.cs",
-              "RelativeToolTip": "WinForms-Vsoft\\BUS\\BUS_DocumentWatchers.cs",
-              "ViewState": "AQIAADoAAAAAAAAAAAAhwFgAAAAhAAAA",
+              "Title": "FrmSelectUser.cs",
+              "DocumentMoniker": "D:\\VShare_Solution\\WinForms-Vsoft\\FrmSelectUser.cs",
+              "RelativeDocumentMoniker": "WinForms-Vsoft\\FrmSelectUser.cs",
+              "ToolTip": "D:\\VShare_Solution\\WinForms-Vsoft\\FrmSelectUser.cs",
+              "RelativeToolTip": "WinForms-Vsoft\\FrmSelectUser.cs",
+              "ViewState": "AQIAACsAAAAAAAAAAAD4vzUAAAARAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-01T07:34:18.864Z",
+              "WhenOpened": "2024-08-01T03:15:05.477Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 0,
+              "Title": "FrmSelectEmail.cs [Design]",
+              "DocumentMoniker": "D:\\VShare_Solution\\WinForms-Vsoft\\FrmSelectEmail.cs",
+              "RelativeDocumentMoniker": "WinForms-Vsoft\\FrmSelectEmail.cs",
+              "ToolTip": "D:\\VShare_Solution\\WinForms-Vsoft\\FrmSelectEmail.cs [Design]",
+              "RelativeToolTip": "WinForms-Vsoft\\FrmSelectEmail.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-01T08:48:40.257Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
               "Title": "DAO_DocumentWatchers.cs",
               "DocumentMoniker": "D:\\VShare_Solution\\WinForms-Vsoft\\DAO\\DAO_DocumentWatchers.cs",
               "RelativeDocumentMoniker": "WinForms-Vsoft\\DAO\\DAO_DocumentWatchers.cs",
@@ -152,127 +175,11 @@
               "RelativeToolTip": "WinForms-Vsoft\\DAO\\DAO_DocumentWatchers.cs",
               "ViewState": "AQIAABgAAAAAAAAAAAASwCgAAAA6AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-31T09:55:17.508Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-31T09:55:17.508Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "FrmSelectUser.cs",
-              "DocumentMoniker": "D:\\VShare_Solution\\WinForms-Vsoft\\FrmSelectUser.cs",
-              "RelativeDocumentMoniker": "WinForms-Vsoft\\FrmSelectUser.cs",
-              "ToolTip": "D:\\VShare_Solution\\WinForms-Vsoft\\FrmSelectUser.cs",
-              "RelativeToolTip": "WinForms-Vsoft\\FrmSelectUser.cs",
-              "ViewState": "AQIAACoAAAAAAAAAAAAMwDQAAABZAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-01T03:15:05.477Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "FrmSelectDocument.cs [Design]",
-              "DocumentMoniker": "D:\\VShare_Solution\\WinForms-Vsoft\\FrmSelectDocument.cs",
-              "RelativeDocumentMoniker": "WinForms-Vsoft\\FrmSelectDocument.cs",
-              "ToolTip": "D:\\VShare_Solution\\WinForms-Vsoft\\FrmSelectDocument.cs [Design]",
-              "RelativeToolTip": "WinForms-Vsoft\\FrmSelectDocument.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-01T07:36:02.628Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "DTO_Response.cs",
-              "DocumentMoniker": "D:\\VShare_Solution\\WinForms-Vsoft\\DTO\\DTO_Response.cs",
-              "RelativeDocumentMoniker": "WinForms-Vsoft\\DTO\\DTO_Response.cs",
-              "ToolTip": "D:\\VShare_Solution\\WinForms-Vsoft\\DTO\\DTO_Response.cs",
-              "RelativeToolTip": "WinForms-Vsoft\\DTO\\DTO_Response.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAbAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-01T07:37:16.569Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "DTO_DocumentWatchers_View.cs",
-              "DocumentMoniker": "D:\\VShare_Solution\\WinForms-Vsoft\\DTO\\DTO_DocumentWatchers_View.cs",
-              "RelativeDocumentMoniker": "WinForms-Vsoft\\DTO\\DTO_DocumentWatchers_View.cs",
-              "ToolTip": "D:\\VShare_Solution\\WinForms-Vsoft\\DTO\\DTO_DocumentWatchers_View.cs",
-              "RelativeToolTip": "WinForms-Vsoft\\DTO\\DTO_DocumentWatchers_View.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-01T07:36:45.812Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "APIClient.cs",
-              "DocumentMoniker": "D:\\VShare_Solution\\WinForms-Vsoft\\APIHelper\\APIClient.cs",
-              "RelativeDocumentMoniker": "WinForms-Vsoft\\APIHelper\\APIClient.cs",
-              "ToolTip": "D:\\VShare_Solution\\WinForms-Vsoft\\APIHelper\\APIClient.cs",
-              "RelativeToolTip": "WinForms-Vsoft\\APIHelper\\APIClient.cs",
-              "ViewState": "AQIAACEAAAAAAAAAAAAhwB4AAAApAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-01T07:10:16.56Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "WinForms-Vsoft.csproj",
-              "DocumentMoniker": "D:\\VShare_Solution\\WinForms-Vsoft\\WinForms-Vsoft.csproj",
-              "RelativeDocumentMoniker": "WinForms-Vsoft\\WinForms-Vsoft.csproj",
-              "ToolTip": "D:\\VShare_Solution\\WinForms-Vsoft\\WinForms-Vsoft.csproj",
-              "RelativeToolTip": "WinForms-Vsoft\\WinForms-Vsoft.csproj",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2024-08-01T02:06:52.031Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "FrmSelectEmail.cs [Design]",
-              "DocumentMoniker": "D:\\VShare_Solution\\WinForms-Vsoft\\FrmSelectEmail.cs",
-              "RelativeDocumentMoniker": "WinForms-Vsoft\\FrmSelectEmail.cs",
-              "ToolTip": "D:\\VShare_Solution\\WinForms-Vsoft\\FrmSelectEmail.cs [Design]",
-              "RelativeToolTip": "WinForms-Vsoft\\FrmSelectEmail.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-01T03:48:03.098Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "CollectionHelper.cs",
-              "DocumentMoniker": "D:\\VShare_Solution\\WinForms-Vsoft\\CollectionHelper\\CollectionHelper.cs",
-              "RelativeDocumentMoniker": "WinForms-Vsoft\\CollectionHelper\\CollectionHelper.cs",
-              "ToolTip": "D:\\VShare_Solution\\WinForms-Vsoft\\CollectionHelper\\CollectionHelper.cs",
-              "RelativeToolTip": "WinForms-Vsoft\\CollectionHelper\\CollectionHelper.cs",
-              "ViewState": "AQIAAAgAAAAAAAAAAAAcwB4AAAAJAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-01T02:07:36.038Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "FrmSelectEmail.cs",
-              "DocumentMoniker": "D:\\VShare_Solution\\WinForms-Vsoft\\FrmSelectEmail.cs",
-              "RelativeDocumentMoniker": "WinForms-Vsoft\\FrmSelectEmail.cs",
-              "ToolTip": "D:\\VShare_Solution\\WinForms-Vsoft\\FrmSelectEmail.cs",
-              "RelativeToolTip": "WinForms-Vsoft\\FrmSelectEmail.cs",
-              "ViewState": "AQIAAEQAAAAAAAAAAAAmwD0AAAAyAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-01T03:26:33.678Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 4,
               "Title": "FrmSelectUser.Designer.cs",
               "DocumentMoniker": "D:\\VShare_Solution\\WinForms-Vsoft\\FrmSelectUser.Designer.cs",
               "RelativeDocumentMoniker": "WinForms-Vsoft\\FrmSelectUser.Designer.cs",
@@ -285,7 +192,91 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "BUS_DocumentWatchers.cs",
+              "DocumentMoniker": "D:\\VShare_Solution\\WinForms-Vsoft\\BUS\\BUS_DocumentWatchers.cs",
+              "RelativeDocumentMoniker": "WinForms-Vsoft\\BUS\\BUS_DocumentWatchers.cs",
+              "ToolTip": "D:\\VShare_Solution\\WinForms-Vsoft\\BUS\\BUS_DocumentWatchers.cs",
+              "RelativeToolTip": "WinForms-Vsoft\\BUS\\BUS_DocumentWatchers.cs",
+              "ViewState": "AQIAADoAAAAAAAAAAAAhwFgAAAAhAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-01T07:34:18.864Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "DTO_Response.cs",
+              "DocumentMoniker": "D:\\VShare_Solution\\WinForms-Vsoft\\DTO\\DTO_Response.cs",
+              "RelativeDocumentMoniker": "WinForms-Vsoft\\DTO\\DTO_Response.cs",
+              "ToolTip": "D:\\VShare_Solution\\WinForms-Vsoft\\DTO\\DTO_Response.cs",
+              "RelativeToolTip": "WinForms-Vsoft\\DTO\\DTO_Response.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAbAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-01T07:37:16.569Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "DTO_DocumentWatchers_View.cs",
+              "DocumentMoniker": "D:\\VShare_Solution\\WinForms-Vsoft\\DTO\\DTO_DocumentWatchers_View.cs",
+              "RelativeDocumentMoniker": "WinForms-Vsoft\\DTO\\DTO_DocumentWatchers_View.cs",
+              "ToolTip": "D:\\VShare_Solution\\WinForms-Vsoft\\DTO\\DTO_DocumentWatchers_View.cs",
+              "RelativeToolTip": "WinForms-Vsoft\\DTO\\DTO_DocumentWatchers_View.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-01T07:36:45.812Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "APIClient.cs",
+              "DocumentMoniker": "D:\\VShare_Solution\\WinForms-Vsoft\\APIHelper\\APIClient.cs",
+              "RelativeDocumentMoniker": "WinForms-Vsoft\\APIHelper\\APIClient.cs",
+              "ToolTip": "D:\\VShare_Solution\\WinForms-Vsoft\\APIHelper\\APIClient.cs",
+              "RelativeToolTip": "WinForms-Vsoft\\APIHelper\\APIClient.cs",
+              "ViewState": "AQIAACEAAAAAAAAAAAAhwB4AAAApAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-01T07:10:16.56Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "WinForms-Vsoft.csproj",
+              "DocumentMoniker": "D:\\VShare_Solution\\WinForms-Vsoft\\WinForms-Vsoft.csproj",
+              "RelativeDocumentMoniker": "WinForms-Vsoft\\WinForms-Vsoft.csproj",
+              "ToolTip": "D:\\VShare_Solution\\WinForms-Vsoft\\WinForms-Vsoft.csproj",
+              "RelativeToolTip": "WinForms-Vsoft\\WinForms-Vsoft.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-08-01T02:06:52.031Z"
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 13,
+              "Title": "CollectionHelper.cs",
+              "DocumentMoniker": "D:\\VShare_Solution\\WinForms-Vsoft\\CollectionHelper\\CollectionHelper.cs",
+              "RelativeDocumentMoniker": "WinForms-Vsoft\\CollectionHelper\\CollectionHelper.cs",
+              "ToolTip": "D:\\VShare_Solution\\WinForms-Vsoft\\CollectionHelper\\CollectionHelper.cs",
+              "RelativeToolTip": "WinForms-Vsoft\\CollectionHelper\\CollectionHelper.cs",
+              "ViewState": "AQIAAAgAAAAAAAAAAAAcwB4AAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-01T02:07:36.038Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "FrmSelectEmail.cs",
+              "DocumentMoniker": "D:\\VShare_Solution\\WinForms-Vsoft\\FrmSelectEmail.cs",
+              "RelativeDocumentMoniker": "WinForms-Vsoft\\FrmSelectEmail.cs",
+              "ToolTip": "D:\\VShare_Solution\\WinForms-Vsoft\\FrmSelectEmail.cs",
+              "RelativeToolTip": "WinForms-Vsoft\\FrmSelectEmail.cs",
+              "ViewState": "AQIAAEQAAAAAAAAAAAAmwD0AAAAyAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-01T03:26:33.678Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
               "Title": "Vsoft-share-document.csproj",
               "DocumentMoniker": "D:\\VShare_Solution\\Vsoft-share-document\\Vsoft-share-document.csproj",
               "RelativeDocumentMoniker": "Vsoft-share-document\\Vsoft-share-document.csproj",
@@ -293,8 +284,7 @@
               "RelativeToolTip": "Vsoft-share-document\\Vsoft-share-document.csproj",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2024-07-31T07:00:13.636Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-31T07:00:13.636Z"
             },
             {
               "$type": "Document",
@@ -318,8 +308,7 @@
               "RelativeToolTip": "WinForms-Vsoft\\FrmMain.cs",
               "ViewState": "AQIAABwAAAAAAAAAAAAlwCgAAAAMAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-31T08:59:07.016Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-31T08:59:07.016Z"
             },
             {
               "$type": "Document",

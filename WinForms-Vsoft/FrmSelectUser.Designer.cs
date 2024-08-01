@@ -121,11 +121,12 @@
             // 
             // grdCtrUser
             // 
-            grdCtrUser.Location = new Point(0, 237);
+            grdCtrUser.Dock = DockStyle.Fill;
+            grdCtrUser.Location = new Point(0, 231);
             grdCtrUser.MainView = gridViewUser;
             grdCtrUser.MenuManager = ribbon;
             grdCtrUser.Name = "grdCtrUser";
-            grdCtrUser.Size = new Size(1322, 487);
+            grdCtrUser.Size = new Size(1322, 499);
             grdCtrUser.TabIndex = 2;
             grdCtrUser.ViewCollection.AddRange(new DevExpress.XtraGrid.Views.Base.BaseView[] { gridViewUser });
             // 

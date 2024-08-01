@@ -31,6 +31,7 @@
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FrmMain));
             DevExpress.XtraGrid.GridFormatRule gridFormatRule1 = new DevExpress.XtraGrid.GridFormatRule();
             DevExpress.XtraEditors.FormatConditionRuleValue formatConditionRuleValue1 = new DevExpress.XtraEditors.FormatConditionRuleValue();
+            grdIsActive = new DevExpress.XtraGrid.Columns.GridColumn();
             ribbon = new DevExpress.XtraBars.Ribbon.RibbonControl();
             btnAdd = new DevExpress.XtraBars.BarButtonItem();
             btnLoad = new DevExpress.XtraBars.BarButtonItem();
@@ -48,13 +49,23 @@
             grdExpiredIn = new DevExpress.XtraGrid.Columns.GridColumn();
             grdSecurityLevel = new DevExpress.XtraGrid.Columns.GridColumn();
             grdStatus = new DevExpress.XtraGrid.Columns.GridColumn();
-            grdIsActive = new DevExpress.XtraGrid.Columns.GridColumn();
             grdCreatedOn = new DevExpress.XtraGrid.Columns.GridColumn();
             grdCheckSum = new DevExpress.XtraGrid.Columns.GridColumn();
             ((System.ComponentModel.ISupportInitialize)ribbon).BeginInit();
             ((System.ComponentModel.ISupportInitialize)grdCtrDocumentWatchers).BeginInit();
             ((System.ComponentModel.ISupportInitialize)grdViewDocumentWatchers).BeginInit();
             SuspendLayout();
+            // 
+            // grdIsActive
+            // 
+            grdIsActive.Caption = "Kích hoạt";
+            grdIsActive.FieldName = "IsActive";
+            grdIsActive.MinWidth = 30;
+            grdIsActive.Name = "grdIsActive";
+            grdIsActive.OptionsColumn.AllowEdit = false;
+            grdIsActive.Visible = true;
+            grdIsActive.VisibleIndex = 4;
+            grdIsActive.Width = 77;
             // 
             // ribbon
             // 
@@ -117,11 +128,12 @@
             // 
             // grdCtrDocumentWatchers
             // 
-            grdCtrDocumentWatchers.Location = new Point(0, 229);
+            grdCtrDocumentWatchers.Dock = DockStyle.Fill;
+            grdCtrDocumentWatchers.Location = new Point(0, 231);
             grdCtrDocumentWatchers.MainView = grdViewDocumentWatchers;
             grdCtrDocumentWatchers.MenuManager = ribbon;
             grdCtrDocumentWatchers.Name = "grdCtrDocumentWatchers";
-            grdCtrDocumentWatchers.Size = new Size(1596, 621);
+            grdCtrDocumentWatchers.Size = new Size(1596, 583);
             grdCtrDocumentWatchers.TabIndex = 2;
             grdCtrDocumentWatchers.ViewCollection.AddRange(new DevExpress.XtraGrid.Views.Base.BaseView[] { grdViewDocumentWatchers });
             // 
@@ -225,17 +237,6 @@
             grdStatus.Visible = true;
             grdStatus.VisibleIndex = 2;
             grdStatus.Width = 113;
-            // 
-            // grdIsActive
-            // 
-            grdIsActive.Caption = "Kích hoạt";
-            grdIsActive.FieldName = "IsActive";
-            grdIsActive.MinWidth = 30;
-            grdIsActive.Name = "grdIsActive";
-            grdIsActive.OptionsColumn.AllowEdit = false;
-            grdIsActive.Visible = true;
-            grdIsActive.VisibleIndex = 4;
-            grdIsActive.Width = 77;
             // 
             // grdCreatedOn
             // 

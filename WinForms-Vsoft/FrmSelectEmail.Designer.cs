@@ -112,6 +112,7 @@
             // 
             // flpSelectEmail
             // 
+            flpSelectEmail.Anchor = AnchorStyles.Top | AnchorStyles.Left | AnchorStyles.Right;
             flpSelectEmail.Location = new Point(12, 237);
             flpSelectEmail.Name = "flpSelectEmail";
             flpSelectEmail.Size = new Size(1034, 462);

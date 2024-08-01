@@ -29,14 +29,14 @@
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FrmSelectDocument));
-            DevExpress.XtraGrid.GridFormatRule gridFormatRule5 = new DevExpress.XtraGrid.GridFormatRule();
-            DevExpress.XtraEditors.FormatConditionRuleValue formatConditionRuleValue5 = new DevExpress.XtraEditors.FormatConditionRuleValue();
-            DevExpress.XtraGrid.GridFormatRule gridFormatRule6 = new DevExpress.XtraGrid.GridFormatRule();
-            DevExpress.XtraEditors.FormatConditionRuleValue formatConditionRuleValue6 = new DevExpress.XtraEditors.FormatConditionRuleValue();
-            DevExpress.XtraGrid.GridFormatRule gridFormatRule7 = new DevExpress.XtraGrid.GridFormatRule();
-            DevExpress.XtraEditors.FormatConditionRuleValue formatConditionRuleValue7 = new DevExpress.XtraEditors.FormatConditionRuleValue();
             DevExpress.XtraGrid.GridFormatRule gridFormatRule1 = new DevExpress.XtraGrid.GridFormatRule();
             DevExpress.XtraEditors.FormatConditionRuleValue formatConditionRuleValue1 = new DevExpress.XtraEditors.FormatConditionRuleValue();
+            DevExpress.XtraGrid.GridFormatRule gridFormatRule2 = new DevExpress.XtraGrid.GridFormatRule();
+            DevExpress.XtraEditors.FormatConditionRuleValue formatConditionRuleValue2 = new DevExpress.XtraEditors.FormatConditionRuleValue();
+            DevExpress.XtraGrid.GridFormatRule gridFormatRule3 = new DevExpress.XtraGrid.GridFormatRule();
+            DevExpress.XtraEditors.FormatConditionRuleValue formatConditionRuleValue3 = new DevExpress.XtraEditors.FormatConditionRuleValue();
+            DevExpress.XtraGrid.GridFormatRule gridFormatRule4 = new DevExpress.XtraGrid.GridFormatRule();
+            DevExpress.XtraEditors.FormatConditionRuleValue formatConditionRuleValue4 = new DevExpress.XtraEditors.FormatConditionRuleValue();
             grdStatus = new DevExpress.XtraGrid.Columns.GridColumn();
             gridColumn2 = new DevExpress.XtraGrid.Columns.GridColumn();
             ribbon = new DevExpress.XtraBars.Ribbon.RibbonControl();
@@ -194,44 +194,45 @@
             // 
             // grdCtrDocument
             // 
+            grdCtrDocument.Anchor = AnchorStyles.Top | AnchorStyles.Left | AnchorStyles.Right;
             grdCtrDocument.Location = new Point(0, 274);
             grdCtrDocument.MainView = grdViewDocument;
             grdCtrDocument.MenuManager = ribbon;
             grdCtrDocument.Name = "grdCtrDocument";
-            grdCtrDocument.Size = new Size(1492, 389);
+            grdCtrDocument.Size = new Size(1492, 395);
             grdCtrDocument.TabIndex = 2;
             grdCtrDocument.ViewCollection.AddRange(new DevExpress.XtraGrid.Views.Base.BaseView[] { grdViewDocument });
             // 
             // grdViewDocument
             // 
             grdViewDocument.Columns.AddRange(new DevExpress.XtraGrid.Columns.GridColumn[] { gridId, grdDocumentSummary, grdFKey, grdCode, grdIsActive, grdSecurityLevel, grdStatusMessage, grdStatus });
-            gridFormatRule5.ApplyToRow = true;
-            gridFormatRule5.Column = grdStatus;
-            gridFormatRule5.Name = "Status0";
-            formatConditionRuleValue5.Appearance.BackColor = Color.FromArgb(255, 224, 192);
-            formatConditionRuleValue5.Appearance.Options.UseBackColor = true;
-            formatConditionRuleValue5.Condition = DevExpress.XtraEditors.FormatCondition.Equal;
-            formatConditionRuleValue5.Value1 = (short)0;
-            gridFormatRule5.Rule = formatConditionRuleValue5;
-            gridFormatRule6.ApplyToRow = true;
-            gridFormatRule6.Column = grdStatus;
-            gridFormatRule6.Name = "Status2";
-            formatConditionRuleValue6.Appearance.BackColor = Color.FromArgb(255, 224, 192);
-            formatConditionRuleValue6.Appearance.Options.UseBackColor = true;
-            formatConditionRuleValue6.Condition = DevExpress.XtraEditors.FormatCondition.Equal;
-            formatConditionRuleValue6.Value1 = (short)2;
-            gridFormatRule6.Rule = formatConditionRuleValue6;
-            gridFormatRule7.ApplyToRow = true;
-            gridFormatRule7.Column = grdStatus;
-            gridFormatRule7.Name = "Status4";
-            formatConditionRuleValue7.Appearance.BackColor = Color.FromArgb(255, 224, 192);
-            formatConditionRuleValue7.Appearance.Options.UseBackColor = true;
-            formatConditionRuleValue7.Condition = DevExpress.XtraEditors.FormatCondition.Equal;
-            formatConditionRuleValue7.Value1 = (short)4;
-            gridFormatRule7.Rule = formatConditionRuleValue7;
-            grdViewDocument.FormatRules.Add(gridFormatRule5);
-            grdViewDocument.FormatRules.Add(gridFormatRule6);
-            grdViewDocument.FormatRules.Add(gridFormatRule7);
+            gridFormatRule1.ApplyToRow = true;
+            gridFormatRule1.Column = grdStatus;
+            gridFormatRule1.Name = "Status0";
+            formatConditionRuleValue1.Appearance.BackColor = Color.FromArgb(255, 224, 192);
+            formatConditionRuleValue1.Appearance.Options.UseBackColor = true;
+            formatConditionRuleValue1.Condition = DevExpress.XtraEditors.FormatCondition.Equal;
+            formatConditionRuleValue1.Value1 = (short)0;
+            gridFormatRule1.Rule = formatConditionRuleValue1;
+            gridFormatRule2.ApplyToRow = true;
+            gridFormatRule2.Column = grdStatus;
+            gridFormatRule2.Name = "Status2";
+            formatConditionRuleValue2.Appearance.BackColor = Color.FromArgb(255, 224, 192);
+            formatConditionRuleValue2.Appearance.Options.UseBackColor = true;
+            formatConditionRuleValue2.Condition = DevExpress.XtraEditors.FormatCondition.Equal;
+            formatConditionRuleValue2.Value1 = (short)2;
+            gridFormatRule2.Rule = formatConditionRuleValue2;
+            gridFormatRule3.ApplyToRow = true;
+            gridFormatRule3.Column = grdStatus;
+            gridFormatRule3.Name = "Status4";
+            formatConditionRuleValue3.Appearance.BackColor = Color.FromArgb(255, 224, 192);
+            formatConditionRuleValue3.Appearance.Options.UseBackColor = true;
+            formatConditionRuleValue3.Condition = DevExpress.XtraEditors.FormatCondition.Equal;
+            formatConditionRuleValue3.Value1 = (short)4;
+            gridFormatRule3.Rule = formatConditionRuleValue3;
+            grdViewDocument.FormatRules.Add(gridFormatRule1);
+            grdViewDocument.FormatRules.Add(gridFormatRule2);
+            grdViewDocument.FormatRules.Add(gridFormatRule3);
             grdViewDocument.GridControl = grdCtrDocument;
             grdViewDocument.Name = "grdViewDocument";
             grdViewDocument.ViewCaption = "Danh sách tài liệu";
@@ -320,7 +321,8 @@
             // 
             // grdCtrSelectedUser
             // 
-            grdCtrSelectedUser.Location = new Point(0, 669);
+            grdCtrSelectedUser.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left | AnchorStyles.Right;
+            grdCtrSelectedUser.Location = new Point(0, 675);
             grdCtrSelectedUser.MainView = grdViewSelectedUser;
             grdCtrSelectedUser.MenuManager = ribbon;
             grdCtrSelectedUser.Name = "grdCtrSelectedUser";
@@ -331,15 +333,15 @@
             // grdViewSelectedUser
             // 
             grdViewSelectedUser.Columns.AddRange(new DevExpress.XtraGrid.Columns.GridColumn[] { gridColumn1, grdEmail, grdFullName, gridColumn2 });
-            gridFormatRule1.ApplyToRow = true;
-            gridFormatRule1.Column = gridColumn2;
-            gridFormatRule1.Name = "IsActive";
-            formatConditionRuleValue1.Appearance.BackColor = Color.FromArgb(255, 224, 192);
-            formatConditionRuleValue1.Appearance.Options.UseBackColor = true;
-            formatConditionRuleValue1.Condition = DevExpress.XtraEditors.FormatCondition.Equal;
-            formatConditionRuleValue1.Value1 = false;
-            gridFormatRule1.Rule = formatConditionRuleValue1;
-            grdViewSelectedUser.FormatRules.Add(gridFormatRule1);
+            gridFormatRule4.ApplyToRow = true;
+            gridFormatRule4.Column = gridColumn2;
+            gridFormatRule4.Name = "IsActive";
+            formatConditionRuleValue4.Appearance.BackColor = Color.FromArgb(255, 224, 192);
+            formatConditionRuleValue4.Appearance.Options.UseBackColor = true;
+            formatConditionRuleValue4.Condition = DevExpress.XtraEditors.FormatCondition.Equal;
+            formatConditionRuleValue4.Value1 = false;
+            gridFormatRule4.Rule = formatConditionRuleValue4;
+            grdViewSelectedUser.FormatRules.Add(gridFormatRule4);
             grdViewSelectedUser.GridControl = grdCtrSelectedUser;
             grdViewSelectedUser.Name = "grdViewSelectedUser";
             // 

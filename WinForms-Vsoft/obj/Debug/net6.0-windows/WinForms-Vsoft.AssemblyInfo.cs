@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("WinForms-Vsoft")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+517d1bedbdf40ac13ed54f636d9408b85ed88305")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+033bf81a7d47c7af32df55adebddef46727f6f84")]
 [assembly: System.Reflection.AssemblyProductAttribute("WinForms-Vsoft")]
 [assembly: System.Reflection.AssemblyTitleAttribute("WinForms-Vsoft")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
